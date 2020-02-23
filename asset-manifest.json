@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cryptodash/static/css/main.d1b05096.chunk.css",
+    "main.js": "/cryptodash/static/js/main.9a918b99.chunk.js",
+    "main.js.map": "/cryptodash/static/js/main.9a918b99.chunk.js.map",
+    "runtime-main.js": "/cryptodash/static/js/runtime-main.b591310e.js",
+    "runtime-main.js.map": "/cryptodash/static/js/runtime-main.b591310e.js.map",
+    "static/js/2.d0b02b8b.chunk.js": "/cryptodash/static/js/2.d0b02b8b.chunk.js",
+    "static/js/2.d0b02b8b.chunk.js.map": "/cryptodash/static/js/2.d0b02b8b.chunk.js.map",
+    "index.html": "/cryptodash/index.html",
+    "precache-manifest.3c833e8b6a665cc93346f44e6630cb49.js": "/cryptodash/precache-manifest.3c833e8b6a665cc93346f44e6630cb49.js",
+    "service-worker.js": "/cryptodash/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/cryptodash/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.d0b02b8b.chunk.js.LICENSE.txt": "/cryptodash/static/js/2.d0b02b8b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/cryptodash/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b591310e.js",
+    "static/js/2.d0b02b8b.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.9a918b99.chunk.js"
+  ]
+}
