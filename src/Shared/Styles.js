@@ -1,3 +1,4 @@
+
 const theme = 'dark';
 //const theme = 'light';
 export const lightTheme = theme === 'light';
@@ -11,7 +12,7 @@ if (lightTheme) {
   document.body.style.color = '#061a44';
 }
 
-export const lightBlueBackground = `background-color: ${color}`;
+export const lightBlueBackground = `background-color: ${color};`;
 export const backgroundColor2 = `background-color: ${color2};`;
 export const greenBackgroundColor = `background-color: ${color3};`;
 

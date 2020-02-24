@@ -6,13 +6,11 @@ import CoinGrid from './CoinGrid';
 import Search from './Search';
 
 export default function() {
-  return (
-        <Page name="settings">
-          <WelcomeMessage /> 
-          <CoinGrid topSection />
-          <ConfirmButton />
-          <Search />
-          <CoinGrid />
-        </Page>
-  ); 
+  return <Page name="settings">
+    <WelcomeMessage /> 
+    <CoinGrid topSection />
+    <ConfirmButton />
+    <Search />
+    <CoinGrid />
+  </Page>  
 };
