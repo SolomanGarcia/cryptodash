@@ -13,6 +13,8 @@ const SearchGrid = styled.div`
 const SearchInput = styled.input`
   ${backgroundColor2}
   ${fontSize2}
+  background-color: #010e2c;
+  font-size: 1.0em;
   border: 1px solid; 
   height: 25px; 
   color: #1163c9;
