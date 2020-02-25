@@ -31,14 +31,16 @@ const numberFormat = number => {
 const PriceTileStyled = styled(SelectableTile)`
   ${props => props.compact && css`
     display: grid; 
-    ${fontSize3}
+    // ${fontSize3}
+    font-size: .75em;
     grid-gap: 5px; 
     grid-template-columns: repeat(3, 1fr); 
     justify-items: right; 
   `}
   
   ${props => props.currentFavorite && css`
-    ${greenBoxShadow}
+    // ${greenBoxShadow}
+    box-shadow: 0px 0px 4px 2px #5fff17;
     pointer-events: none; 
   `}
 `
