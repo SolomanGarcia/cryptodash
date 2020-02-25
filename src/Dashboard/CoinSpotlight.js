@@ -13,7 +13,7 @@ export default function (){
     <AppContext.Consumer>
       {({currentFavorite, coinList}) =>
         <Tile>
-          <SpotlightName> {coinList[currentFavorite].CoinName} </SpotlightName>
+          <SpotlightName> {coinList[currentFavorite] ? coinList[currentFavorite].CoinName : `No coin found for ${currentFavorite}` } </SpotlightName>
           <CoinImage spotlight coin={coinList[currentFavorite]}/>
         </Tile>
       }
