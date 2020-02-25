@@ -10,17 +10,6 @@ const CoinImage = styled.img`
   `}
 `
 
-
-// export default function ({coin, spotlight}) {
-//   return <CoinImage
-//     spotlight={spotlight}
-//     alt={coin.CoinSymbol}
-//     src={`http://cryptocompare.com/${
-//       coin.ImageUrl
-//       }`}
-//   />;
-// }
-
 export default function ({coin, spotlight}) {
   return !coin ? <div>No coin Data found</div> : <CoinImage
        spotlight={spotlight}
@@ -30,4 +19,3 @@ export default function ({coin, spotlight}) {
          }`}
      />;
 }
-// !coin ? <div>No coin data found </div> : <img..... />
